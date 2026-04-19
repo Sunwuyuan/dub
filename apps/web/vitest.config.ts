@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [tsconfigPaths()],
   test: {
     dir: "./tests",
+
     reporters: ["verbose"],
     globals: true,
     testTimeout: 50000,
